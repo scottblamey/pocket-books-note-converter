@@ -99,3 +99,9 @@ footer {
     background-color: #0064bd;
     box-shadow: none;
 }
+.button-7 input[type="file"] {
+    display: none;
+}
+.input-hidden {
+    display: none;
+}

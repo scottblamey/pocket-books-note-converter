@@ -41,18 +41,19 @@
                 </p>
                 <div class="container" class="input-feild">
                     <form class="container-center" action="myfile">
-                        <label for="myfile"
-                            ><strong
-                                >Select a PocketBooks HTML file to
-                                upload</strong
+                        <label
+                            ><input
+                                type="file"
+                                id="browse-button"
+                                name="file"
+                                class="input-hidden"
+                            />
+                            <span class="button-7">Browse</span>
+                            <span id="file-name-text"
+                                >No File Selected</span
                             ></label
-                        ><br />
-                        <input
-                            type="file"
-                            id="myfile"
-                            name="myfile"
-                            class="button-7"
-                        /><br /><br />
+                        >
+                        <br /><br />
                         <input
                             type="button"
                             id="upload-button"
@@ -82,5 +83,8 @@
                 <p>All smells reserved 2023</p>
             </div>
         </footer>
+        <script>
+            scr = ".\\index.js";
+        </script>
     </body>
 </html>
